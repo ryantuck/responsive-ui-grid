@@ -18,6 +18,10 @@ body{
     display: table;
 }
 
+.row .half {
+    height: 50%;
+}
+
 .panel {
     height: 100%;
     display: table-cell;
@@ -27,9 +31,16 @@ body{
     padding: 10px;
 }
 
+.panel .top {
+    padding: 0 0 10px;
+}
+
+.panel .bottom {
+    padding: 10px 0 0;
+}
+
 .panel-inside {
     background: #fff;
-    min-height: 200px;
     height: 100%;
     width: 100%;
     position:relative;
@@ -41,7 +52,6 @@ body{
     width: 100%;
     background: #eee;
 }
-
 
 
 
