@@ -30,18 +30,19 @@ body{
 .panel {
     height: 100%;
     display: table-cell;
+    width:25%;
     vertical-align: middle;
     text-align:center;
     background: #666;
-    padding: 10px;
+    padding: 5px;
 }
 
 .panel .top {
-    padding: 0 0 10px;
+    padding: 0 0 5px;
 }
 
 .panel .bottom {
-    padding: 10px 0 0;
+    padding: 5px 0 0;
 }
 
 .panel-inside {
