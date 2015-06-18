@@ -19,12 +19,20 @@ body{
     display: table;
 }
 
-.row .half {
+.row-44 {
+    height: 44%;
+}
+
+.row-half {
     height: 50%;
 }
 
-.row .third {
-    height: 33.333333%;
+.row-header {
+    height: 8%;
+}
+
+.row-footer {
+    height: 4%;
 }
 
 .panel {
